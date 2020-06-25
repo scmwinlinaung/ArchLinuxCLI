@@ -1,0 +1,2 @@
+# To remove all unused dependencies
+sudo pacman -Rns $(pacman -Qtdq)
